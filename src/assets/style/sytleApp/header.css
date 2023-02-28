@@ -1,0 +1,41 @@
+.header {
+  font-size: 12px;
+  height: 4em;
+  background: #f4f4f4;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0.2em 20em;
+}
+
+.header div {
+  margin-right: 1em;
+  padding: 0.8em 1em;
+}
+.header .social a svg {
+  color: black;
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 0.1em;
+  padding: 0.7em;
+}
+.header .social a :hover {
+  background: burlywood;
+  border-radius: 100%;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.header .tel {
+  color: #fff;
+  background: #0004;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.header .tel:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.6s;
+}

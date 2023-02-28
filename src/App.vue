@@ -1,32 +1,29 @@
 <template>
   <div id="app">
+    <div class="header">
+      <div class="social">
+        <a href="">
+          <font-awesome-icon icon="fa-brands fa-facebook" /></a>
+        <a href="">
+          <font-awesome-icon icon="fa-brands fa-instagram" class="insta" /></a>
+      </div>
+      <div class="tel">
+        +90 551 977 64 46
+      </div>
+    </div>
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Ana sayfa</router-link>
+      <router-link to="/introduction">Bİz kimiz</router-link>
+      <router-link to="/product">Ürünler</router-link>
+      <router-link to="/communacition">İletişim</router-link>
+      <router-link to="/sss">SSS</router-link>
     </nav>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+@import './assets/style/sytleApp/app.css';
+@import './assets/style/sytleApp/header.css';
+@import './assets/style/sytleApp/nav.css';
 </style>
